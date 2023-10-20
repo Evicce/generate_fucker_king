@@ -281,7 +281,7 @@ if __name__ == '__main__':
 
     f.close()
 
-    f_del = open(r"C:\Users\Evicce\Desktop\20221124导入\delete_in.sql", 'w+', encoding='utf-8')
+    f_del = open(r"C:\Users\Evicce\Desktop\20231124导入\delete_in.sql", 'w+', encoding='utf-8')
     for ind_num in df_ind_res['指标编号'].drop_duplicates():
         f_del.write(f"'{ind_num}',")
 
